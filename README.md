@@ -1,6 +1,8 @@
 # CodingStudy_22-2
 
  # RULES
+ 
+ * main 브랜치에서는 무조건 pull request만 진행
 
  * 각 자신의 브랜치에서만 add, commit, push 할 것
  * 각 자신의 폴더에서만 파일 수정할 것
