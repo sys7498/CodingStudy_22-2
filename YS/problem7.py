@@ -1,11 +1,10 @@
 def solution(s):
-    answer = ''
+    answer = '' 
     lista = s.split()
     listInt = []
     for i in lista:
         listInt.append(int(i))
     listInt.sort()
-    print(listInt)
     answer = answer + str(listInt[0]) + ' ' + str(listInt[len(listInt)-1])
     return answer
 
