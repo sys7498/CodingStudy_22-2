@@ -11,6 +11,3 @@ def solution(n):
         bigger = toBinary(num)
         if(orig.count('1') == bigger.count('1')):
             return num
-        
-
-print(solution(78))
