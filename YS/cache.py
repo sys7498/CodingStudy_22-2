@@ -2,8 +2,10 @@ def solution(cacheSize, cities):
     cache = []
     if (cacheSize == 0):
         return len(cities)*5
+
     for i in range(cacheSize):
         cache.append(['', 0])
+
     lru = 1
     lruIndex = 0
     answer = 0
@@ -16,6 +18,7 @@ def solution(cacheSize, cities):
             if cache[i][1] > lru:
                 lru = cache[i][1]
                 lruIndex = i
+
         for i in range(len(cache)):
             if (cache[i][0] == k.lower()):
                 print(i, ' 번째 index hit!')
