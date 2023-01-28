@@ -7,7 +7,6 @@ def solution(arr1, arr2):
     row = 0
     t = 0
     for i in range(fm * sn):
-        print(t)
         a = 0
         for l in range(fn):
             a += (arr1[row][l] * arr2[l][t])
@@ -21,3 +20,9 @@ def solution(arr1, arr2):
 
 print(solution([[1, 2, 3], [4, 5, 6]],
       [[1, 4], [2, 5], [3, 6]]))
+
+# 1 1 1 1   1 1
+# 1 1 1 1   1 1
+#           1 1
+#           1 1      
+#
