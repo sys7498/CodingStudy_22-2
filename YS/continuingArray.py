@@ -9,8 +9,7 @@ def solution(elements):
             a += temp[k + i]
             sol.append(a)
         a = 0
-    result = list(set(sol))
-    return result
+    return len(set(sol))
 
 
 solution([7, 9, 1, 1, 4])
