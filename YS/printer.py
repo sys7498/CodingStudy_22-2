@@ -4,7 +4,6 @@ global loc
 global ans
 
 
-
 def findBigger(number):
     global temp
     global prio
@@ -42,4 +41,4 @@ def solution(priorities, location):
             return ans
 
 
-print(solution([2, 1, 3, 2], 2))
+print(solution([2, 2, 2, 2], 2))
