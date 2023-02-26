@@ -5,3 +5,6 @@ def solution(s):
     min = s.pop(0)
     max = s.pop()
     return str(min)+' '+str(max) #문자로 바꾼 뒤에 공백을 넣어 출력
+
+
+print(solution("-1 -2 -3 -4"))
